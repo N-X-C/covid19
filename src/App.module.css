@@ -1,0 +1,125 @@
+body {
+    background: #fff;
+    /* position: relative; */
+    /* height: 100%; */
+}
+
+.main{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+    background: url('./img/header-bg.svg') center left -250px no-repeat;
+    z-index: 1;
+}
+
+svg {
+    overflow: hidden;
+}
+
+.header{
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+
+
+.logo{
+    width: 100px;
+    margin-top:50px;
+}
+
+.mainWrapper::before{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: url('./img/hero-left.svg');
+    width: 50%;
+    height: 100vh; */
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerShapeLeft{
+    /* background: url('./img/header-bg.svg') center -250px no-repeat; */
+    /* position: absolute; */
+    /* top: 0px;
+    left: 0;
+    z-index: -1; */
+}
+
+.bannerShape{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: -1;
+}
+
+.bodyLeft {
+    /* background: #7A8FF1; */
+    background: url('./img/banner-bg1.jpg');
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    /* transform: rotate(90deg); */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    z-index: -1;
+    
+    /* 
+    min-height: 200px;
+    min-width: 200px;
+    width: 40vh;
+    height: 40vh;  
+
+}
+.rbBg{
+    position: absolute;
+    background: #7A8FF1;
+    bottom: 0;
+    right: 0;
+    content: '';
+    background: url('./img/rightborder.svg');
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    /* background-position: bottom right; */
+}
+
+.mainWrapper{
+    margin: 20px;
+    background: #F8F8F8;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    /* height: 100vh; */
+    /* height: calc(100vh - 100px); */
+}
+
+.chartWrapper{
+    background: #fff;
+    padding: 40px;
+    margin: 0px 15px 15px;
+    background: #fff !important;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10), 0 5px 10px rgba(0,0,0,0.10);
+}
+
+
+@media only screen and (max-width: 920px) {
+    .bannerShape{
+        position: absolute;
+        top: 0px;
+        right: 0;
+        z-index: -1;
+    }
+  }

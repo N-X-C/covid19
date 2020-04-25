@@ -1,0 +1,96 @@
+.card.contentBox{
+    padding: 20px;
+    border:none;
+    background: transparent;
+    /* margin-bottom:20px; */
+}
+.card.customShowBox{
+    background: #fff !important;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10), 0 5px 10px rgba(0,0,0,0.10);
+    margin-bottom:20px;
+}
+.customShowBox .card-header{
+    color: #C1C1C1;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+.customShowBox .card-header{
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 25px 30px 10px 20px;
+    border-bottom: 2px solid  #FF8573;
+}
+
+.customShowBox .card-body{
+    background: #fff;
+    border-radius: 0;
+}
+.customShowBox .card-body{
+    padding-top: 20px;
+}
+.customShowBox .card-body p{
+    color:#C1C1C1;
+    font-size: 14px;
+    font-family: "Open Sans";
+
+}
+
+.boldtext{
+    font-family: "Montserrat";
+    color:#6C5CF5;
+    font-weight: bold;  
+}
+
+.linkColor{
+    color:#FF8573;
+}
+.customShowBox .card-body .number{
+    font-family: "Montserrat";
+    font-size: 24px;
+    color:#6C5CF5;
+    font-weight: bold;
+}
+
+.customShowBox .card-body .dates{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color:#C1C1C1;
+    font-weight: 500;
+}
+
+.customShowBox .infectedBottomDesign,.customShowBox .recoveredBottomDesign,
+.customShowBox .deathBottomDesign {
+    height: 60px;
+}
+
+.customShowBox .infectedBottomDesign{
+    background: url('../../img/infected-bottom.svg');
+    content: '';
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.customShowBox .recoveredBottomDesign{
+    background: url('../../img/recovered-bottom.svg');
+    content: '';
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+.customShowBox .deathBottomDesign{
+    background: url('../../img/death-bottom.svg');
+    content: '';
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

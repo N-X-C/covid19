@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="987" height="314.219" viewBox="0 0 987 314.219">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5d56fb;
+        fill-rule: evenodd;
+        opacity: 0.05;
+      }
+    </style>
+  </defs>
+  <path id="agency-hero-shape.svg" class="cls-1" d="M-125-395.823c8.619,44.93,49.973,107.663,69,139,81.038,136.887-131.412,304.031-28,470,81.9,134.719,219.643,139,379-13s160.227-190.112,369-101c129.884,57.575,301.269-52.661,323-106v-389H-125Z"/>
+</svg>
